@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538DD065263A11CF00BB17B7 /* snoozeme WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 538DD064263A11CF00BB17B7 /* snoozeme WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		538DD06A263A11CF00BB17B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538DD069263A11CF00BB17B7 /* Assets.xcassets */; };
+		538DD071263A11D000BB17B7 /* snoozeme WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 538DD070263A11D000BB17B7 /* snoozeme WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		538DD076263A11D000BB17B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538DD075263A11D000BB17B7 /* ContentView.swift */; };
+		538DD078263A11D000BB17B7 /* snoozemeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538DD077263A11D000BB17B7 /* snoozemeApp.swift */; };
+		538DD07A263A11D000BB17B7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538DD079263A11D000BB17B7 /* ComplicationController.swift */; };
+		538DD07C263A11D000BB17B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538DD07B263A11D000BB17B7 /* Assets.xcassets */; };
+		538DD07F263A11D000BB17B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538DD07E263A11D000BB17B7 /* Preview Assets.xcassets */; };
+		538DD08F263A123600BB17B7 /* MicrophoneMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538DD08E263A123600BB17B7 /* MicrophoneMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		538DD066263A11CF00BB17B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538DD05A263A11CF00BB17B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538DD063263A11CF00BB17B7;
+			remoteInfo = "snoozeme WatchKit App";
+		};
+		538DD072263A11D000BB17B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538DD05A263A11CF00BB17B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538DD06F263A11D000BB17B7;
+			remoteInfo = "snoozeme WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		538DD086263A11D000BB17B7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				538DD071263A11D000BB17B7 /* snoozeme WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538DD08A263A11D000BB17B7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				538DD065263A11CF00BB17B7 /* snoozeme WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		538DD060263A11CF00BB17B7 /* snoozeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snoozeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538DD064263A11CF00BB17B7 /* snoozeme WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snoozeme WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538DD069263A11CF00BB17B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538DD06B263A11CF00BB17B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538DD070263A11D000BB17B7 /* snoozeme WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "snoozeme WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538DD075263A11D000BB17B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		538DD077263A11D000BB17B7 /* snoozemeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snoozemeApp.swift; sourceTree = "<group>"; };
+		538DD079263A11D000BB17B7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		538DD07B263A11D000BB17B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538DD07E263A11D000BB17B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		538DD080263A11D000BB17B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538DD08E263A123600BB17B7 /* MicrophoneMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538DD06D263A11D000BB17B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538DD059263A11CF00BB17B7 = {
+			isa = PBXGroup;
+			children = (
+				538DD068263A11CF00BB17B7 /* snoozeme WatchKit App */,
+				538DD074263A11D000BB17B7 /* snoozeme WatchKit Extension */,
+				538DD061263A11CF00BB17B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538DD061263A11CF00BB17B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538DD060263A11CF00BB17B7 /* snoozeme.app */,
+				538DD064263A11CF00BB17B7 /* snoozeme WatchKit App.app */,
+				538DD070263A11D000BB17B7 /* snoozeme WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538DD068263A11CF00BB17B7 /* snoozeme WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				538DD069263A11CF00BB17B7 /* Assets.xcassets */,
+				538DD06B263A11CF00BB17B7 /* Info.plist */,
+			);
+			path = "snoozeme WatchKit App";
+			sourceTree = "<group>";
+		};
+		538DD074263A11D000BB17B7 /* snoozeme WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				538DD075263A11D000BB17B7 /* ContentView.swift */,
+				538DD077263A11D000BB17B7 /* snoozemeApp.swift */,
+				538DD08E263A123600BB17B7 /* MicrophoneMonitor.swift */,
+				538DD079263A11D000BB17B7 /* ComplicationController.swift */,
+				538DD07B263A11D000BB17B7 /* Assets.xcassets */,
+				538DD080263A11D000BB17B7 /* Info.plist */,
+				538DD07D263A11D000BB17B7 /* Preview Content */,
+			);
+			path = "snoozeme WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		538DD07D263A11D000BB17B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				538DD07E263A11D000BB17B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538DD05F263A11CF00BB17B7 /* snoozeme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538DD08B263A11D000BB17B7 /* Build configuration list for PBXNativeTarget "snoozeme" */;
+			buildPhases = (
+				538DD05E263A11CF00BB17B7 /* Resources */,
+				538DD08A263A11D000BB17B7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538DD067263A11CF00BB17B7 /* PBXTargetDependency */,
+			);
+			name = snoozeme;
+			productName = snoozeme;
+			productReference = 538DD060263A11CF00BB17B7 /* snoozeme.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		538DD063263A11CF00BB17B7 /* snoozeme WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538DD087263A11D000BB17B7 /* Build configuration list for PBXNativeTarget "snoozeme WatchKit App" */;
+			buildPhases = (
+				538DD062263A11CF00BB17B7 /* Resources */,
+				538DD086263A11D000BB17B7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538DD073263A11D000BB17B7 /* PBXTargetDependency */,
+			);
+			name = "snoozeme WatchKit App";
+			productName = "snoozeme WatchKit App";
+			productReference = 538DD064263A11CF00BB17B7 /* snoozeme WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		538DD06F263A11D000BB17B7 /* snoozeme WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538DD083263A11D000BB17B7 /* Build configuration list for PBXNativeTarget "snoozeme WatchKit Extension" */;
+			buildPhases = (
+				538DD06C263A11D000BB17B7 /* Sources */,
+				538DD06D263A11D000BB17B7 /* Frameworks */,
+				538DD06E263A11D000BB17B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "snoozeme WatchKit Extension";
+			productName = "snoozeme WatchKit Extension";
+			productReference = 538DD070263A11D000BB17B7 /* snoozeme WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538DD05A263A11CF00BB17B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					538DD05F263A11CF00BB17B7 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					538DD063263A11CF00BB17B7 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					538DD06F263A11D000BB17B7 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 538DD05D263A11CF00BB17B7 /* Build configuration list for PBXProject "snoozeme" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538DD059263A11CF00BB17B7;
+			productRefGroup = 538DD061263A11CF00BB17B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538DD05F263A11CF00BB17B7 /* snoozeme */,
+				538DD063263A11CF00BB17B7 /* snoozeme WatchKit App */,
+				538DD06F263A11D000BB17B7 /* snoozeme WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538DD05E263A11CF00BB17B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538DD062263A11CF00BB17B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538DD06A263A11CF00BB17B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538DD06E263A11D000BB17B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538DD07F263A11D000BB17B7 /* Preview Assets.xcassets in Resources */,
+				538DD07C263A11D000BB17B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538DD06C263A11D000BB17B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538DD076263A11D000BB17B7 /* ContentView.swift in Sources */,
+				538DD078263A11D000BB17B7 /* snoozemeApp.swift in Sources */,
+				538DD08F263A123600BB17B7 /* MicrophoneMonitor.swift in Sources */,
+				538DD07A263A11D000BB17B7 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		538DD067263A11CF00BB17B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538DD063263A11CF00BB17B7 /* snoozeme WatchKit App */;
+			targetProxy = 538DD066263A11CF00BB17B7 /* PBXContainerItemProxy */;
+		};
+		538DD073263A11D000BB17B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538DD06F263A11D000BB17B7 /* snoozeme WatchKit Extension */;
+			targetProxy = 538DD072263A11D000BB17B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		538DD081263A11D000BB17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		538DD082263A11D000BB17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538DD084263A11D000BB17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"snoozeme WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = CF6T7YDX6Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "snoozeme WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baker.apps.snoozeme.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		538DD085263A11D000BB17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"snoozeme WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = CF6T7YDX6Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "snoozeme WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.baker.apps.snoozeme.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		538DD088263A11D000BB17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF6T7YDX6Y;
+				IBSC_MODULE = snoozeme_WatchKit_Extension;
+				INFOPLIST_FILE = "snoozeme WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baker.apps.snoozeme.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		538DD089263A11D000BB17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CF6T7YDX6Y;
+				IBSC_MODULE = snoozeme_WatchKit_Extension;
+				INFOPLIST_FILE = "snoozeme WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baker.apps.snoozeme.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		538DD08C263A11D000BB17B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF6T7YDX6Y;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baker.apps.snoozeme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		538DD08D263A11D000BB17B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CF6T7YDX6Y;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baker.apps.snoozeme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538DD05D263A11CF00BB17B7 /* Build configuration list for PBXProject "snoozeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538DD081263A11D000BB17B7 /* Debug */,
+				538DD082263A11D000BB17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538DD083263A11D000BB17B7 /* Build configuration list for PBXNativeTarget "snoozeme WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538DD084263A11D000BB17B7 /* Debug */,
+				538DD085263A11D000BB17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538DD087263A11D000BB17B7 /* Build configuration list for PBXNativeTarget "snoozeme WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538DD088263A11D000BB17B7 /* Debug */,
+				538DD089263A11D000BB17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538DD08B263A11D000BB17B7 /* Build configuration list for PBXNativeTarget "snoozeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538DD08C263A11D000BB17B7 /* Debug */,
+				538DD08D263A11D000BB17B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538DD05A263A11CF00BB17B7 /* Project object */;
+}
